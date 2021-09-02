@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# React Whatsapp Clone
+
+Clone Whatsapp application with [Tailwind CSS](https://tailwindcss.com/) and React [Next.js](https://nextjs.org/). Project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
@@ -17,6 +19,25 @@ You can start editing the page by modifying `pages/index.tsx`. The page auto-upd
 [API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+
+## Features
+- Basic Sign-in
+- Personal Messaging
+- Group Messaging
+- Sent / Delivered / Read Message
+- Online / Last Seen
+
+## To Do
+- Create Sign-in Page
+- Create Homepage
+  - Create Sidebar Component
+    - Create Header Component
+    - Create Search Component
+    - Create Chats Component
+  - Create Main Chat Component
+    - Create Header Component
+    - Create Chat Message Component
+    - Create Chat Input / Footer Component
 
 ## Learn More
 
