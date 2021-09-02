@@ -1,0 +1,64 @@
+@media (min-width: 640px) {
+  .container {
+    flex: 0.35;
+  }
+}
+
+@media only screen and (max-width: 639px) {
+  .container {
+    flex: 1;
+  }
+}
+
+.container__header {
+  @apply flex justify-between items-center p-3;
+}
+
+.container__avatar {
+  @apply rounded-full;
+}
+
+.container__icons {
+  @apply mr-3 text-gray-500;
+}
+
+.container__search {
+  @apply p-2;
+}
+
+.container__search__main {
+  @apply flex items-center bg-white p-2 rounded-lg;
+}
+
+.container__search_icon {
+  @apply mr-2 text-gray-400;
+}
+
+.container__search__input {
+  @apply w-full border-0 outline-none;
+}
+
+.container__chats {
+  @apply flex items-center p-3 bg-white border-b-2 border-gray-100;
+}
+
+.container__chats__avatar {
+  min-width: 45px;
+  line-height: 0;
+}
+
+.container__chats__avatar__img {
+  @apply rounded-full;
+}
+
+.container__chats__room {
+  @apply ml-3;
+}
+
+.container__chats__name {
+  @apply line-clamp-1 text-gray-900 text-base font-bold;
+}
+
+.container__chats__message {
+  @apply line-clamp-1 text-gray-700 text-sm;
+}
