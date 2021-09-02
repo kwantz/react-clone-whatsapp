@@ -1,0 +1,10 @@
+.main {
+  padding: 5vh 5vw;
+  @apply h-screen w-screen bg-gray-300;
+}
+
+.container {
+  width: 90vw;
+  height: 90vh;
+  @apply shadow-2xl bg-gray-100 flex rounded;
+}
