@@ -1,0 +1,12 @@
+@media (min-width: 640px) {
+  .container {
+    flex: 0.65;
+    @apply bg-blue-100;
+  }
+}
+
+@media only screen and (max-width: 639px) {
+  .container {
+    display: none;
+  }
+}
