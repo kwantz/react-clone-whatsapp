@@ -1,0 +1,3 @@
+.container__chats {
+  @apply bg-white flex-grow;
+}

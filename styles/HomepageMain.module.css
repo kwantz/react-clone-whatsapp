@@ -1,7 +1,7 @@
 @media (min-width: 640px) {
   .container {
     flex: 0.65;
-    @apply bg-blue-100;
+    @apply border-l-2 border-gray-200;
   }
 }
 
@@ -9,4 +9,61 @@
   .container {
     display: none;
   }
+}
+
+.container {
+  @apply flex flex-col justify-between;
+}
+
+.container__header {
+  @apply flex items-center justify-between p-5;
+}
+
+.container__room {
+  @apply flex items-center;
+}
+
+.container__room__avatar {
+  min-width: 45px;
+  line-height: 0;
+}
+
+.container__room__avatar__img {
+  @apply rounded-full;
+}
+
+.container__room__detail {
+  @apply mx-3;
+}
+
+.container__room__name {
+  @apply line-clamp-1 text-gray-900 text-base font-bold;
+}
+
+.container__room__message {
+  @apply line-clamp-1 text-gray-700 text-sm;
+}
+
+.container__header__right {
+  @apply flex-none;
+}
+
+.container__icons {
+  @apply mr-5 text-gray-500;
+}
+
+.container__footer {
+  @apply flex items-center justify-between px-5 py-3;
+}
+
+.container__footer__chat {
+  @apply flex-grow bg-white rounded-full px-5 py-2 mx-5;
+}
+
+.container__footer__chat__input {
+  @apply w-full border-0 outline-none;
+}
+
+.container__footer__icons {
+  @apply text-gray-500;
 }

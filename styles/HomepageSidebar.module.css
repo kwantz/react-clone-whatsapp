@@ -11,7 +11,7 @@
 }
 
 .container__header {
-  @apply flex justify-between items-center p-3;
+  @apply flex justify-between items-center p-5;
 }
 
 .container__avatar {
@@ -19,7 +19,7 @@
 }
 
 .container__icons {
-  @apply mr-3 text-gray-500;
+  @apply mr-5 text-gray-500;
 }
 
 .container__search {
@@ -39,7 +39,7 @@
 }
 
 .container__chats {
-  @apply flex items-center p-3 bg-white border-b-2 border-gray-100;
+  @apply flex items-center p-5 bg-white border-b-2 border-gray-100;
 }
 
 .container__chats__avatar {
