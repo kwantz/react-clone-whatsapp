@@ -1,0 +1,45 @@
+@startuml Chatting Database
+
+entity User {
+  id: INT
+  --
+  name: VARCHAR
+  last_seen: TIMESTAMP
+}
+
+entity Room {
+  id: INT
+  --
+  name: VARCHAR
+}
+
+entity RoomMember {
+  id: INT
+  --
+  room_id: INT
+  used_id: INT
+}
+
+entity Message {
+  id: INT
+  --
+  room_id: INT
+  author_id: INT
+  status_id: INT
+  body: TEXT
+  sent_at: TIMESTAMP
+}
+
+entity MessageStatus {
+  id: INT
+  --
+  name: VARCHAR
+}
+
+User ||--|{ RoomMember
+RoomMember }|--|| Room
+
+Message }|--|| Room
+Message }|--|| MessageStatus
+
+@enduml

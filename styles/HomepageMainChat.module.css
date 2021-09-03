@@ -1,3 +1,27 @@
 .container__chats {
-  @apply bg-white flex-grow;
+  @apply bg-white flex-grow overflow-scroll	overflow-x-hidden;
+}
+
+.container__chats__main {
+  @apply flow-root;
+}
+
+.container__chats__message {
+  @apply bg-gray-100 rounded p-3 m-3 max-w-md inline-block float-left;
+}
+
+.container__chats__message__self {
+  @apply bg-green-100 rounded p-3 m-3 max-w-md inline-block float-right;
+}
+
+.container__chats__author {
+  @apply line-clamp-1 text-gray-900 text-base font-bold;
+}
+
+.container__chats__body {
+  @apply text-gray-700 text-base;
+}
+
+.container__chats__sentat {
+  @apply text-right text-gray-500 text-sm;
 }

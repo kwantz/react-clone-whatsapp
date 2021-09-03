@@ -9,11 +9,15 @@ const HomepageSidebar: NextPage = () => {
     <div className={styles.container}>
       <HomepageSidebarHeader />
       <HomepageSidebarSearch />
-      <HomepageSidebarChats />
-      <HomepageSidebarChats />
-      <HomepageSidebarChats />
-      <HomepageSidebarChats />
-      <HomepageSidebarChats />
+      <div className={styles.container__chats__overflow}>
+        <HomepageSidebarChats />
+        <HomepageSidebarChats />
+        <HomepageSidebarChats />
+        <HomepageSidebarChats />
+        <HomepageSidebarChats />
+        <HomepageSidebarChats />
+        <HomepageSidebarChats />
+      </div>
     </div>
   )
 }

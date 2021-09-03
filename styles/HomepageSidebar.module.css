@@ -10,6 +10,10 @@
   }
 }
 
+.container {
+  @apply flex flex-col;
+}
+
 .container__header {
   @apply flex justify-between items-center p-5;
 }
@@ -36,6 +40,10 @@
 
 .container__search__input {
   @apply w-full border-0 outline-none;
+}
+
+.container__chats__overflow {
+  @apply overflow-scroll	overflow-x-hidden;
 }
 
 .container__chats {
